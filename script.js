@@ -72,3 +72,28 @@ document.body.appendChild(h);
 setTimeout(()=>h.remove(),5000);
 },300);
 }
+
+
+
+
+
+
+
+
+function openNote() {
+    document.getElementById("noteOverlay").style.display = "flex";
+}
+
+function closeNote() {
+    document.getElementById("noteOverlay").style.display = "none";
+}
+
+
+
+function openNote() {
+    document.getElementById("noteOverlay").style.display = "flex";
+}
+
+function closeNote() {
+    document.getElementById("noteOverlay").style.display = "none";
+}

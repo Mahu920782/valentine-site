@@ -1,0 +1,44 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* backgrounds */
+.home{
+background:linear-gradient(to right,#ff758c,#ff7eb3);
+color:white;
+}
+
+.question{
+background:#fff0f5;
+position:relative;
+overflow:hidden;
+}
+
+.yes-page{
+background:linear-gradient(to right,#ff4e50,#fc913a);
+color:white;
+overflow:hidden;
+}
+
+/* YES button grow smooth */
+#yesBtn{
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hearts */
+.heart{
+position:fixed;
+top:-10px;
+font-size:22px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+to{transform:translateY(100vh);}
+}
+
+/* mobile */
+@media(max-width:768px){
+h1{font-size:28px;}
+}

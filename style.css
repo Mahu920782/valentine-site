@@ -75,7 +75,7 @@ h1{font-size:28px;}
 /* Note Button */
 .note-btn {
     position: fixed;
-    bottom: 330px;
+    bottom: 220px;
     right: 135px;
     padding: 10px 20px;
     background-color: #ff4d6d;
